@@ -1,0 +1,123 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat-300 {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+.montserrat-400 {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+.montserrat-500 {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.montserrat-600 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.montserrat-900 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.hero {
+  width: 100%;
+  height: 570px;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  background-image: url("../images/hero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% -150px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.65;
+}
+
+.main-header {
+  height: 114px;
+  background-color: rgba(164, 31, 35, 0.7);
+  color: white;
+  padding: 0 100px 0 300px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 20px;
+  bottom: -100px;
+}
+
+.menu {
+  background-color: rgba(164, 31, 35, 0.6);
+  width: 73%;
+  color: white;
+}
+
+.dropdown-menu {
+  width: 172.29px;
+  border-radius: unset;
+  border: unset;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-divider {
+  margin: 0;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 93%;
+}
+
+.navbar {
+  position: absolute;
+  top: 205px;
+  left: 13%;
+  --bs-navbar-padding-y: 0;
+}
+.navbar-nav {
+  width: 100%;
+  --bs-nav-link-padding-y: 0;
+}
+.nav-item {
+  flex-grow: 1;
+}
+
+.nav-item .active {
+  background-color: rgba(164, 31, 35, 1);
+}
+
+.nav-link {
+  --bs-text-opacity: 0.75;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-link:hover {
+  background-color: rgba(164, 31, 35, 1);
+  --bs-text-opacity: 1;
+}
+
+.dropdown-item {
+  background-color: rgba(164, 31, 35, 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: rgba(164, 31, 35, 0.6);
+}
+
+.hero-text {
+  position: absolute;
+  top: 400px;
+  left: 40%;
+}

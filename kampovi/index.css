@@ -1,0 +1,19 @@
+body {
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card-text {
+  position: relative;
+}
+.poveke {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.main-content {
+  margin-bottom: 200px;
+}

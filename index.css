@@ -1,0 +1,84 @@
+body {
+  background-image: url("images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.hero {
+  height: 1024px;
+}
+
+.hero::before {
+  background-position: unset;
+  opacity: 1;
+}
+
+.hero-text {
+  top: 880px;
+}
+
+.next-match {
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  background: rgba(248, 240, 241, 0.68);
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  border-top-left-radius: 50px 100%;
+  border-bottom-left-radius: 50px 100%;
+  border-top-right-radius: 50px 100%;
+  border-bottom-right-radius: 50px 100%;
+}
+.red-color {
+  color: #a41f23;
+}
+
+.projects {
+  display: flex;
+  gap: 30px;
+  height: 460px;
+}
+
+.project {
+  width: calc((100% - (2 * 30px)) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.project-body {
+  flex-grow: 1;
+  position: relative;
+}
+.project-link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: end;
+}
+
+.carousel-background {
+  background: linear-gradient(
+    161.7deg,
+    #a41f23 3.75%,
+    rgba(164, 31, 35, 0.822917) 17.43%,
+    rgba(164, 31, 35, 0.582064) 63.57%,
+    rgba(164, 31, 35, 0.390542) 79.97%,
+    rgba(164, 31, 35, 0) 100.82%
+  );
+}
+
+.carousel-control-next-icon {
+  background-image: url("images/right-arrow.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("images/left-arrow.svg");
+}
+
+.karticka-natasa {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}

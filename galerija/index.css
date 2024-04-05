@@ -1,0 +1,14 @@
+body {
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.hero {
+  margin-bottom: 100px;
+}
+
+.galerija {
+  width: 400px;
+}

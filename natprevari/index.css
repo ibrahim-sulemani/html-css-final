@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.title {
+  color: rgba(164, 31, 35, 1);
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+.subtitle {
+  color: rgba(164, 31, 35, 1);
+}
+
+.next-match {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 10px;
+  background: linear-gradient(
+    136.09deg,
+    #a41f23 2.09%,
+    rgba(164, 31, 35, 0.822917) 28.08%,
+    rgba(164, 31, 35, 0.582064) 62.31%,
+    rgba(164, 31, 35, 0.390542) 78.82%,
+    rgba(164, 31, 35, 0) 99.81%
+  );
+  width: 100%;
+  height: 297px;
+  border-radius: 15px;
+}
+
+.main-match {
+  margin-bottom: 100px;
+}
+
+.other-matches {
+  margin-bottom: 100px;
+}
+
+.other-matches .next-match {
+  border-radius: unset;
+}
+
+.light-grey-bg {
+  background: rgba(225, 222, 222, 1);
+}
+
+.linear-gradient-bg {
+  background: linear-gradient(
+    135.49deg,
+    #f8f0f1 1.87%,
+    rgba(248, 240, 241, 0.679253) 38.93%,
+    rgba(248, 240, 241, 0.396254) 68.8%,
+    rgba(248, 240, 241, 0) 97.36%
+  );
+}
